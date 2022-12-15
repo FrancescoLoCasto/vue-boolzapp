@@ -80,3 +80,11 @@
 .leght-icon i{
    margin-left: .5rem;
 }
+
+.contacts .user-contact{
+   height: 2.7rem;
+   background-color: #ff7802;
+   display: flex;
+   align-items: center;
+   border-top: 1px solid #b20000
+}

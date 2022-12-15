@@ -120,3 +120,8 @@
    width: 2rem;
    font-size: 1.3rem;
 }
+
+.box-message{
+   height: 75vh;
+   background-color: #10ddc8;
+}

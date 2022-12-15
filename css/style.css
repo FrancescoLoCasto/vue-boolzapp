@@ -123,5 +123,30 @@
 
 .box-message{
    height: 75vh;
-   background-color: #10ddc8;
+   width: 100%;
+   background-image: url(../img/mine.jpg);
+}
+
+.sent {
+   width: 30%;
+   height: 20%;
+   padding: 1rem;
+   border-radius: 6px;
+   margin-left: 67%;
+   margin-bottom: 0.2rem;
+   background-color: #d5f9ba;
+}
+
+.received {
+   width: 30%;
+   height: 15%;
+   margin-left: 3%;  
+   padding: 1rem;
+   border-radius: 6px;
+   background-color: white;
+}
+
+.date-mesage {
+   font-size: 0.6rem;
+   color:#2c2c2c80;
 }

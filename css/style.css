@@ -14,3 +14,26 @@
    width: 60%;
    background-color: rgb(157, 21, 21);
 }
+
+#list-contact{
+   height: 100%;
+   width: 30%;
+   background-color: blue;
+}
+
+#chat-box{
+   height: 100%;
+   width: 70%;
+   background-color: darkorange;
+}
+
+.my-user{
+   height: 10%;
+   width: 100%;
+   background-color: darkgreen;
+}
+
+.circle-img img{
+   width: 50px;
+   border-radius: 2rem;
+}

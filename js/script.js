@@ -4,7 +4,8 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      contacts: [
+    messageIndex: 0,
+        contacts: [
          {
              name: 'Michele',
              avatar: '_1',
@@ -168,6 +169,12 @@ createApp({
          }
      ]
      
+    }
+  },
+
+  methods: {
+    forChangeTheContact(index){
+        
     }
   }
 }).mount('#app')

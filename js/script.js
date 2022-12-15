@@ -174,7 +174,7 @@ createApp({
 
   methods: {
     forChangeTheContact(index){
-        
+        this.messageIndex = index
     }
   }
 }).mount('#app')

@@ -76,8 +76,8 @@
                      <main>
                         <div class="box-message" v-for="contact, index in contacts" :class="(index === messageIndex) ? 'disp-block' : 'd-none'" >
                            <div class="message" v-for="child, index in contact.messages" :class="(child.status === 'sent') ? 'sent' : 'received'">{{ child.message }}
-
-                              <br><span class="date-mesage">{{ child.date }}</span>
+                              <br>
+                              <span class="date-mesage">{{ child.date }}</span>
                            </div>
                         </div>
                      </main>

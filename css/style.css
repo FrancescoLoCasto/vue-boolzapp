@@ -114,3 +114,9 @@
    height: 2.81rem;
    border-radius: 100%;
 }
+
+.icon-top-message i{
+   margin-top: .5rem;
+   width: 2rem;
+   font-size: 1.3rem;
+}

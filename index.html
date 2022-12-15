@@ -59,9 +59,15 @@
                   </div>
                   <div id="chat-box">
                      <header>
-                        <div class="my-user-chat  d-flex">
+                        <div class="my-user-chat  d-flex justify-content-between">
                            <div class="contact-chat-avatar" v-for="contact, index in contacts" :class="(index === messageIndex) ? 'disp-block' : 'd-none'">
                               <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name"> {{ contact.name }}
+                           </div>
+
+                           <div class="icon-top-message d-flex">
+                              <i class="fa-solid fa-magnifying-glass p-1"></i>
+                              <i class="fa-solid fa-paperclip p-1"></i>
+                              <i class="fa-solid fa-ellipsis-vertical p-1"></i>
                            </div>
                            
                         </div>

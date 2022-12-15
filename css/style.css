@@ -83,10 +83,13 @@
 
 .contacts .user-contact{
    height: 3.5rem;
-   background-color: #ff7802;
    display: flex;
    align-items: center;
-   border-top: 1px solid #b20000
+}
+
+.user-contact img{
+   height: 3rem;
+   border-radius: 100%;
 }
 
 .change-color-back{

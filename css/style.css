@@ -95,3 +95,22 @@
 .change-color-back{
    background-color: #009688;
 }
+
+.disp-block{
+   display: inline-block;
+}
+
+.my-user-chat{
+   height: 7%;
+   background-color: #02453e;
+}
+
+.contact-chat-avatar {
+   height: 7%;
+}
+
+
+.contact-chat-avatar img{
+   height: 2.81rem;
+   border-radius: 100%;
+}

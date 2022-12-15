@@ -57,8 +57,17 @@
                      </div>
 
                   </div>
-                  <div id="chat-box"></div>
-
+                  <div id="chat-box">
+                     <header>
+                        <div class="my-user-chat  d-flex">
+                           <div class="contact-chat-avatar" v-for="contact, index in contacts" :class="(index === messageIndex) ? 'disp-block' : 'd-none'">
+                              <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name"> {{ contact.name }}
+                           </div>
+                           
+                        </div>
+                     </header>
+                     </div>
+                     
                </div>
 
             </div>

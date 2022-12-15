@@ -1,0 +1,16 @@
+.main-back{
+   height: 100vh;
+   background-color: #d9dbd4;
+}
+
+.wrapper{
+   height: 10vh;
+   background-color: #009688;
+}
+
+.container{
+   margin-top: 3rem;
+   height: 550px;
+   width: 60%;
+   background-color: rgb(157, 21, 21);
+}

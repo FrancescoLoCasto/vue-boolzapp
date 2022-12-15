@@ -10,7 +10,7 @@
 
 .container{
    margin-top: 3rem;
-   height: 550px;
+   height: 650px;
    width: 60%;
    background-color: rgb(157, 21, 21);
 }
@@ -28,12 +28,55 @@
 }
 
 .my-user{
-   height: 10%;
+   height: 7%;
    width: 100%;
    background-color: darkgreen;
 }
 
 .circle-img img{
-   width: 50px;
+   margin: .2rem;
+   width: 30px;
    border-radius: 2rem;
+}
+
+.notify-block{
+   height: 8%;
+   width: 100%;
+   background-color: rgb(6, 150, 217);
+}
+
+.notify i{
+   margin: .7rem;
+   background-color: white;
+   padding: .4rem;
+   border-radius: 100%;
+}
+
+.text p
+{
+   font-size: .7rem;
+}
+
+.text a
+{
+   font-size: .7rem;
+}
+
+.search-box{
+   height: 2rem;
+   background-color: #fafafa;
+}
+
+.search-box input{
+   height: 1.5rem;
+}
+
+.leght-icon{
+   height: 1.5rem;
+   width: 2rem;
+   border: 1px solid gray;
+}
+
+.leght-icon i{
+   margin-left: .5rem;
 }

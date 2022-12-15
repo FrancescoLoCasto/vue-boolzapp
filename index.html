@@ -52,7 +52,7 @@
 
                      <div class="contacts">
                         <div class="user-contact" :class="(index === messageIndex) ? 'change-color-back' : ''" v-for="contact, index in contacts" @click="forChangeTheContact(index)">
-                           <img src="" alt="">
+                           <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name"> {{ contact.name }}>
                         </div>
                      </div>
 

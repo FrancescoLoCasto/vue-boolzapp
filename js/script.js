@@ -179,7 +179,15 @@ createApp({
     },
 
     sendNewMessage(){
-
+        if (this.newMessage != ''){
+            let newMessObj = {
+                date: this.today,
+                message: this.newMessage,
+                status: 'sent'
+            }
+        this.contacts[this.activeIndex].messages.push(newMessObj);
+        this.newMessage = '';
+        }
     },
 
     receiveNewMessage(){

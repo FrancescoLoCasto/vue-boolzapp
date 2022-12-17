@@ -5,6 +5,7 @@ createApp({
   data() {
     return {
     newMessage : '',
+    today: new Date().toLocaleString(),
     messageIndex: 0,
         contacts: [
          {
@@ -178,6 +179,7 @@ createApp({
         this.messageIndex = index
     },
 
+
     sendNewMessage(){
         if (this.newMessage != ''){
             let newMessObj = {
@@ -185,14 +187,28 @@ createApp({
                 message: this.newMessage,
                 status: 'sent'
             }
-        this.contacts[this.activeIndex].messages.push(newMessObj);
+        this.contacts[this.messageIndex].messages.push(newMessObj);
         this.newMessage = '';
+
+            setTimeout(() => {
+                this. receiveNewMessage()
+            },1000)
+
         }
     },
 
+    
     receiveNewMessage(){
+        let newMessObj = {
+            date: this.today,
+            message: 'Ok',
+            status: 'received'
+        }
+        this.contacts[this.messageIndex].messages.push(newMessObj)
+        this.newMessage = ''
+    },
 
-    }
+
   }
 }).mount('#app')
 

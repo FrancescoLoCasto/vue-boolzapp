@@ -12,25 +12,25 @@
    margin-top: 3rem;
    height: 650px;
    width: 60%;
-   background-color: rgb(157, 21, 21);
+   background-color: #eaeaea;
 }
 
 #list-contact{
    height: 100%;
    width: 30%;
-   background-color: blue;
+   background-color: #eaeaea;
 }
 
 #chat-box{
    height: 100%;
    width: 70%;
-   background-color: darkorange;
+   background-color: #eaeaea;
 }
 
 .my-user{
    height: 7%;
    width: 100%;
-   background-color: darkgreen;
+   background-color: #eaeaea;
 }
 
 .circle-img img{
@@ -64,7 +64,7 @@
 
 .search-box{
    height: 2rem;
-   background-color: #fafafa;
+   background-color: #eaeaea;
 }
 
 .search-box input{
@@ -102,7 +102,7 @@
 
 .my-user-chat{
    height: 7%;
-   background-color: #02453e;
+   background-color: #eaeaea;
 }
 
 .contact-chat-avatar {
@@ -154,6 +154,10 @@
 .send-mesage-box{
    height: 3.2rem;
    width: 100%;
-   background-color: darkmagenta;
+   background-color: #eaeaea;
+}
+
+.send-mesage-box input{
+   width: 80%;
 }
 

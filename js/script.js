@@ -4,6 +4,7 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
+    newMessage : '',
     messageIndex: 0,
         contacts: [
          {
@@ -175,6 +176,14 @@ createApp({
   methods: {
     forChangeTheContact(index){
         this.messageIndex = index
+    },
+
+    sendNewMessage(){
+
+    },
+
+    receiveNewMessage(){
+
     }
   }
 }).mount('#app')

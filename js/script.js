@@ -209,6 +209,10 @@ createApp({
         this.newMessage = ''
     },
 
+    contactsSearch(){
+        
+    }
+
 
   }
 }).mount('#app')

@@ -16,6 +16,7 @@
    height: 650px;
    width: 60%;
    background-color: #eaeaea;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #list-contact{
@@ -46,6 +47,7 @@
    height: 8%;
    width: 100%;
    background-color: rgb(6, 150, 217);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .notify i{
@@ -125,9 +127,11 @@
 }
 
 .box-message{
-   height: 58vh;
+   height: 57vh;
    width: 100%;
    background-image: url(../img/mine.jpg);
+   overflow-y: auto;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .sent {
@@ -138,6 +142,7 @@
    margin-left: 67%;
    margin-bottom: 0.2rem;
    background-color: #d5f9ba;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .received {
@@ -147,6 +152,7 @@
    padding: 1rem;
    border-radius: 6px;
    background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .date-mesage {

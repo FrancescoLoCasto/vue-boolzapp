@@ -210,7 +210,9 @@ createApp({
     },
 
     contactsSearch(){
-        
+        for (let i = 0; i < this.contacts.length; i++){
+            
+        }
     }
 
 

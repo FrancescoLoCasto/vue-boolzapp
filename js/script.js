@@ -4,6 +4,7 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
+    searchName: '',
     newMessage : '',
     today: new Date().toLocaleString(),
     messageIndex: 0,

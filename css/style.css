@@ -9,6 +9,9 @@
 }
 
 .container{
+   top: 34%;
+   left: 50%;
+   transform: translate(-50%, -50%);
    margin-top: 3rem;
    height: 650px;
    width: 60%;
@@ -159,5 +162,9 @@
 
 .send-mesage-box input{
    width: 80%;
+}
+
+.text-search{
+   width: 90%;
 }
 

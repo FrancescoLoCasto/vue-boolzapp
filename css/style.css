@@ -87,9 +87,13 @@
 }
 
 .contacts .user-contact{
-   height: 3.5rem;
+   height: 3.9rem;
    display: flex;
    align-items: center;
+}
+
+.contacts .user-contact:hover{
+   background-color: #00968727;
 }
 
 .user-contact img{
@@ -98,7 +102,7 @@
 }
 
 .change-color-back{
-   background-color: #009688;
+   background-color: #d3d4d4;
 }
 
 .disp-block{

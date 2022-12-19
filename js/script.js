@@ -209,17 +209,17 @@ createApp({
         this.newMessage = ''
     },
 
-    contactsSearch(){
+    contactsSearch() {
         this.contacts.forEach(element => {
-            element.name = element.name.toLowerCase()
-            this.searchName = this.searchName.toLowerCase()
-            if(element.name.includes(this.searchName)){
-                element.visible = true
-            } else{
-                element.visible = false
-            }
+           element.name = element.name.toLowerCase()
+           this.searchName = this.searchName.toLowerCase()
+           if (element.name.includes(this.searchName)) {
+              element.visible = true
+           } else {
+              element.visible = false
+           }
         })
-    }
+     }
 
 
   }

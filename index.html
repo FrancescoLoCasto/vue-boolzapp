@@ -47,12 +47,15 @@
                         <div class="leght-icon">
                            <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
-                        <input type="search" placeholder="Cerca o inizia nuova chat" class="text-search">
+                        <input type="search" placeholder="Cerca o inizia nuova chat" class="text-search" >
                      </div>
 
                      <div class="contacts">
                         <div class="user-contact" :class="(index === messageIndex) ? 'change-color-back' : ''" v-for="contact, index in contacts" @click="forChangeTheContact(index)">
-                           <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name"> {{ contact.name }}
+                           <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name">
+                           <p>
+                              {{ contact.name }}
+                           </p>
                         </div>
                      </div>
 

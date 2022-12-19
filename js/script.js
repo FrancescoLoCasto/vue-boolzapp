@@ -210,9 +210,11 @@ createApp({
     },
 
     contactsSearch(){
-        for (let i = 0; i < this.contacts.length; i++){
+        this.contacts.forEach(element => {
+            element.name = element.name.toLowerCase()
+            this.searchName = this.searchName.toLowerCase()
             
-        }
+        })
     }
 
 

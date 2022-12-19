@@ -54,9 +54,14 @@
                      <div class="contacts">
                         <div class="user-contact" :class="(index === messageIndex) ? 'change-color-back' : ''" v-for="contact, index in contacts"  @click="forChangeTheContact(index)">
                            <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name">
-                           <p>
-                              {{ contact.name }}
-                           </p>
+                           <div class="text-contacts d-flex flex-column m-0">
+                              <h3 class="m-0">
+                                 {{ contact.name }}
+                              </h3>
+                              <p>
+                                 Ultimo messaggio inviato
+                              </p>
+                           </div>
                         </div>
                      </div>
 
@@ -64,8 +69,16 @@
                   <div id="chat-box">
                      <header>
                         <div class="my-user-chat  d-flex justify-content-between">
-                           <div class="contact-chat-avatar" v-for="contact, index in contacts" :class="(index === messageIndex) ? 'disp-block' : 'd-none'">
-                              <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name"> {{ contact.name }}
+                           <div class="contact-chat-avatar d-flex" v-for="contact, index in contacts" :class="(index === messageIndex) ? 'disp-block' : 'd-none'">
+                              <img :src=`./img/avatar${contact.avatar}.jpg` :alt="contact.name"> 
+                              <div class="text-user">
+                                 <h3>
+                                    {{ contact.name }}
+                                 </h3>
+                                 <p>
+                                    Ultimo accesso oggi alle 12:00
+                                 </p>
+                              </div>
                            </div>
 
                            <div class="icon-top-message d-flex">
@@ -98,6 +111,15 @@
                         
                      </footer>
 
+                     <div class="container-created ">
+                        <div class="row">
+                           <div class="col-12">
+                              <h4>
+                                 Created by Francesco Lo Casto&reg; for Boolean with &hearts;
+                              </h4>
+                           </div>
+                        </div>
+                     </div>
 
                   </div>
                      

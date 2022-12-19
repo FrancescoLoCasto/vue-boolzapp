@@ -13,7 +13,7 @@
    left: 50%;
    transform: translate(-50%, -50%);
    margin-top: 3rem;
-   height: 650px;
+   height: 665px;
    width: 60%;
    background-color: #eaeaea;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -91,6 +91,25 @@
    display: flex;
    align-items: center;
 }
+
+.text-contacts h3{
+   font-size: .8rem;
+}
+
+.text-contacts p{
+   font-size: .7rem;
+   color: #c5b8c0;
+}
+
+.text-user h3{
+   font-size: 1rem;
+}
+
+.text-user p{
+   font-size: .7rem;
+   color: #c5b8c0;
+}
+
 
 .contacts .user-contact:hover{
    background-color: #00968727;
@@ -178,3 +197,11 @@
    width: 90%;
 }
 
+
+.container-created{
+   margin-top: 5rem;
+}
+
+.container-created h4{
+   font-size: 1rem;
+}

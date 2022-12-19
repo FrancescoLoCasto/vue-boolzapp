@@ -47,7 +47,7 @@
                         <div class="leght-icon">
                            <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
-                        <input type="search" placeholder="Cerca o inizia nuova chat" class="text-search" >
+                        <input type="search" placeholder="Cerca o inizia nuova chat" class="text-search" v-for="searchName" @keyup="contactsSearch()">
                      </div>
 
                      <div class="contacts">

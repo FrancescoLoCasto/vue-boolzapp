@@ -22,6 +22,8 @@
 
             <div class="wrapper">
 
+               <!-- Container user and chat list -->
+
                <div class="container d-flex position-absolute ms-5">
                   <div id="list-contact">
                      <div class="my-user d-flex">
@@ -43,6 +45,8 @@
                         </div>
                      </div>
 
+                     <!-- Search input for chat  -->
+
                      <div class="search-box d-flex align-items-center justify-content-center">
                         <div class="leght-icon">
                            <i class="fa-solid fa-magnifying-glass"></i>
@@ -50,6 +54,8 @@
                         <input type="search" v-model="searchName" placeholder="Cerca o inizia nuova chat" class="text-search"  @keyUp="contactsSearch">
 
                      </div>
+
+                     <!-- Single contacts creation -->
 
                      <div class="contacts">
                         <div class="user-contact" :class="(index === messageIndex) ? 'change-color-back' : ''" v-for="contact, index in contacts"  @click="forChangeTheContact(index)">
@@ -65,6 +71,8 @@
                         </div>
                      </div>
 
+
+                     <!-- Chat box section  -->
                   </div>
                   <div id="chat-box">
                      <header>
@@ -100,6 +108,7 @@
 
                      </main>
 
+                     <!-- Send new messages  -->
                      
                      <footer  class="d-flex">
                         <div class="send-mesage-box text-center">
